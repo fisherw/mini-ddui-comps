@@ -104,7 +104,7 @@ Component({
             this.search.cancel();
         },
         // 放在methods外面不生效，只能放methods里面，坑！
-        async search(key) {
+        search(key) {
             // 无输入时不作模糊查询
             if (!key) {
                 this.setData({

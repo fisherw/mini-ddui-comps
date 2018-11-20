@@ -1,0 +1,18 @@
+<view>
+    <autocomplete-input 
+        value="1"
+        className="abc"
+        style="color: #333;"
+        placeholder="请输入"
+        type="text"
+        disabled="{{false}}"
+        maxlength="10"
+        focus="{{false}}"
+        onInput="onInput"
+        onConfirm="onConfirm"
+        onFocus="onFocus"
+        onBlur="onBlur"
+        onSearch="onSearch"
+        onSelect="onSelect"  
+    />
+</view>

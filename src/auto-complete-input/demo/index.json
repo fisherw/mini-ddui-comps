@@ -1,0 +1,7 @@
+{
+    "titleBarColor": "#ff5656",
+    "defaultTitle": "自动完成输入框",
+    "usingComponents": {
+        "autocomplete-input":"../index"
+    }
+}

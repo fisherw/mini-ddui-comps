@@ -1,0 +1,22 @@
+<view class="autocomplete-input-container {{className}}" style="{{style}}">
+    <input
+        class="autocomplete-input"
+        type="{{type}}"
+        disabled="{{disabled}}"
+        maxlength="{{maxlength}}"
+        focus="{{focus}}"
+        placeholder="{{placeholder}}"
+        value="{{value}}"
+        onFocus="handleFocus"
+        onInput="handleInput"
+        onBlur="handleBlur"
+        onConfirm="handleConfirm"
+    />
+    <view hidden="{{!isShowList}}" class="search-result-list">
+        <view class="searching" a:if="{{searching}}">查询中</view>
+        <view class="empty" a:elif="{{!filtered.length}}">空数据</view>
+        <view class="item" a:else a:for="{{filtered}}" data-record="{{item}}" onTap="handleSelectOne">{{ item[showProp] }}            
+        </view>
+    </view>
+    </view>
+</view>

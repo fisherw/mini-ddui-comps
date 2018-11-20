@@ -1,0 +1,38 @@
+{
+  "name": "mini-ddui-comps",
+  "version": "1.0.1",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rc-tools run compile && node scripts/cp.js && node scripts/rm.js",
+    "pub": "git push origin && npm run build && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fisherw/mini-ddui-autocomplete-input.git"
+  },
+  "files": [
+    "es"
+  ],
+  "keywords": [
+    "mini-ddui",
+    "input",
+    "autocomplete",
+    "search",
+    "component",
+    "custom-component",
+    "mini-program"
+  ],
+  "devDependencies": {
+    "rc-tools": "6.x"
+  },
+  "author": "fisher <wangjiang.fly.1989@163.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fisherw/mini-ddui-autocomplete-input/issues"
+  },
+  "homepage": "https://github.com/fisherw/mini-ddui-autocomplete-input#readme",
+  "dependencies": {
+    "lodash.debounce": "^4.0.8"
+  }
+}

@@ -1,0 +1,15 @@
+{
+    "pages": [
+      "auto-complete-input/demo/index"
+    ],
+    "window": {
+      "enableWK": "YES",
+      "enableDSL": "YES",
+      "enableJSC": "YES",
+      "defaultTitle": "e应用UI组件库",
+      "backgroundColor": "#F5F5F9",
+      "pullRefresh": false,
+      "allowsBounceVertical": true
+    },
+    "debug": true
+  }

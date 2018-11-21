@@ -1,5 +1,6 @@
 
 # mini-ddui-comps
+钉钉e应用（小程序）ui组件库，目前支持autocomplete-input,有好的ui组件需求欢迎提issues。
 
 ## 链接
 - [钉钉e应用开发](https://open-doc.dingtalk.com/microapp/dev)
